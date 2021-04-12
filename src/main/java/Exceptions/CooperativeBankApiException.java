@@ -1,8 +1,8 @@
 package Exceptions;
 
-public class NotJsonException extends Exception {
+public class CooperativeBankApiException extends Exception {
 
-    public NotJsonException(String message){
+    public CooperativeBankApiException(String message){
 
         super(message);
 

@@ -28,19 +28,19 @@ public class Transaction {
     private String transactionReference;
     @SerializedName("CreditAmount")
     @Expose
-    private String creditAmount;
+    private double creditAmount;
     @SerializedName("DebitAmount")
     @Expose
-    private String debitAmount;
+    private double debitAmount;
     @SerializedName("RunningClearedBalance")
     @Expose
-    private String runningClearedBalance;
+    private double runningClearedBalance;
     @SerializedName("RunningBookBalance")
     @Expose
-    private String runningBookBalance;
+    private double runningBookBalance;
     @SerializedName("DebitLimit")
     @Expose
-    private String debitLimit;
+    private double debitLimit;
     @SerializedName("LimitExpiryDate")
     @Expose
     private String limitExpiryDate;
@@ -101,43 +101,43 @@ public class Transaction {
         this.transactionReference = transactionReference;
     }
 
-    public String getCreditAmount() {
+    public double getCreditAmount() {
         return creditAmount;
     }
 
-    public void setCreditAmount(String creditAmount) {
+    public void setCreditAmount(double creditAmount) {
         this.creditAmount = creditAmount;
     }
 
-    public String getDebitAmount() {
+    public double getDebitAmount() {
         return debitAmount;
     }
 
-    public void setDebitAmount(String debitAmount) {
+    public void setDebitAmount(double debitAmount) {
         this.debitAmount = debitAmount;
     }
 
-    public String getRunningClearedBalance() {
+    public double getRunningClearedBalance() {
         return runningClearedBalance;
     }
 
-    public void setRunningClearedBalance(String runningClearedBalance) {
+    public void setRunningClearedBalance(double runningClearedBalance) {
         this.runningClearedBalance = runningClearedBalance;
     }
 
-    public String getRunningBookBalance() {
+    public double getRunningBookBalance() {
         return runningBookBalance;
     }
 
-    public void setRunningBookBalance(String runningBookBalance) {
+    public void setRunningBookBalance(double runningBookBalance) {
         this.runningBookBalance = runningBookBalance;
     }
 
-    public String getDebitLimit() {
+    public double getDebitLimit() {
         return debitLimit;
     }
 
-    public void setDebitLimit(String debitLimit) {
+    public void setDebitLimit(double debitLimit) {
         this.debitLimit = debitLimit;
     }
 

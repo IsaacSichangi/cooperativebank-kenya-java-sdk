@@ -3,7 +3,7 @@ package datamodels;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Destinations {
+public class DestinationIftAccountToAccount {
 
     @SerializedName("AccountNumber")
     @Expose
@@ -22,7 +22,7 @@ public class Destinations {
     @Expose
     private String narration;
 
-    public Destinations(String referencetNumber, String accountNumber, String amount, String transactionCurrency, String narration) {
+    public DestinationIftAccountToAccount(String referencetNumber, String accountNumber, String amount, String transactionCurrency, String narration) {
         this.accountNumber = accountNumber;
         this.amount = amount;
         this.transactionCurrency = transactionCurrency;
