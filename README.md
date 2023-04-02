@@ -162,9 +162,6 @@ In addition they will whitelist your ip in order to enable you to receive call b
 ## Help & Support
 For any queries, help with integration or just general feedback :+1:
 
-Contact me at :
-
--Phonenumber [+254771770737](tel:+254771770737)
 
 -Email [isaacsichangi@gmail.com](mailto:isaacsichangi@gmail.com)
 
